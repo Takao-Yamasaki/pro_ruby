@@ -1,4 +1,8 @@
+# require 'debug'
+
 def fizz_buzz(n)
+  binding.irb
+  # binding.break
   if n % 15 == 0
     'Fizz Buzz'
   elsif n % 3 == 0
